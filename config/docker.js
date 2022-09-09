@@ -39,6 +39,9 @@ module.exports = {
   },
   files: {
     dirname: process.env['ASSETS_PATH'] || '/tmp/',
+    secret: process.env['S3_SECRET'] ,
+    key: process.env['S3_KEY'] ,
+    bucket: process.env['S3_BUCKET'] 
   },
   session: {
     // Recommended: 63 random alpha-numeric characters
