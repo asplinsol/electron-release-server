@@ -7,10 +7,5 @@ module.exports.files = {
   // Defaults to 500MB
   maxBytes: 524288000,
   // The fs directory name at which files will be kept
-  dirname: '/tmp',
-  adapter: require('skipper-better-s3'),
-  region: 'eu-west-2',
-  s3params: { 
-    ACL: 'public-read'
-  }
+  dirname: ''
 };
